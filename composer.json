@@ -1,0 +1,28 @@
+{
+    "name": "samshal/nirsal-agc-api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "samshal",
+            "email": "samueladeshina73@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/Samshal/nirsal-agc-modules.git"
+        }
+    ],
+    "require": {
+        "Samshal/nirsal-agc-modules":"dev-main",
+        "slim/slim": "^4.8",
+        "samshal/emmet-blue-middeware": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Skylab\\Nirsal\\Api\\":"./src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable":true
+}
