@@ -19,7 +19,7 @@ $app = new \Slim\App($settings);
 $app->post('/{version}/login', function($request, $response, $args){
 	$data = $request->getParsedBody();
 
-	$pluginResponse = \KuboPlugin\User\UserSession::login($data);
+	$pluginResponse = \Skylab\NirsalAgc\Plugins\User\UserSession::login($data);
 
 	if (isset($pluginResponse["status"]) && $pluginResponse["status"]){
 
