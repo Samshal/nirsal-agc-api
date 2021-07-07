@@ -69,7 +69,7 @@ $app->group('/', function(){
 			
 			$globalResponse = array_replace_recursive(
 				$globalResponseFormat, 
-				EmmetBlueMiddleware\Middleware::processor($options, "KuboPlugin")
+				EmmetBlueMiddleware\Middleware::processor($options, "Skylab\NirsalAgc\Plugins")
 			);
 			
 			return $response->withJson($globalResponse["body"], $globalResponse["status"]);

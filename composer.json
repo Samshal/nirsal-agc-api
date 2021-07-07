@@ -15,7 +15,7 @@
     ],
     "require": {
         "Samshal/nirsal-agc-modules":"dev-main",
-        "slim/slim": "^4.8",
+        "slim/slim": "^3.4",
         "samshal/emmet-blue-middeware": "dev-master"
     },
     "autoload":{
